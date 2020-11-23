@@ -25,4 +25,5 @@ module.exports = async () => {
   connection.isConnected = true
   console.log('=> Created a new connection.')
   return Models
+  
 }

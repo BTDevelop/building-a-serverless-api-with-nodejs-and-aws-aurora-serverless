@@ -2,8 +2,6 @@ service: kral-pay-test-service
 # app and org for use with dashboard.serverless.com
 app: kralilan-app
 org: kralilan
-
-
 custom:
   secrets: ${file(secrets.json)}
 

@@ -49,6 +49,7 @@ module.exports.getOne = async (event) => {
       body: err.message || 'Could not fetch the Note.'
     }
   }
+  
 }
 
 module.exports.getAll = async () => {
