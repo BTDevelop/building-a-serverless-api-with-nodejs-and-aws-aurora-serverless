@@ -1,5 +1,5 @@
 {
-  "name": "building-a-serverless-api-with-nodejs-and-aws-aurora-serverless",
+  "name": "kral-pay-test-service",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",

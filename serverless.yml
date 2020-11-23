@@ -1,4 +1,8 @@
-service: web-api
+service: kral-pay-test-service
+# app and org for use with dashboard.serverless.com
+app: kralilan-app
+org: kralilan
+
 
 custom:
   secrets: ${file(secrets.json)}
@@ -22,7 +26,6 @@ provider:
       - ${self:custom.secrets.SUBNET1_ID}
       - ${self:custom.secrets.SUBNET2_ID}
       - ${self:custom.secrets.SUBNET3_ID}
-      - ${self:custom.secrets.SUBNET4_ID}
 
 functions:
   healthCheck:
